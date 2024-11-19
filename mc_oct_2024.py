@@ -356,12 +356,12 @@ app.layout = html.Div(children=[
 
     html.Div(className='divv', children=[ 
         
-        html.H1('BMHC MarCom November 2024 Report', 
+        html.H1('MarCom Report October 2024', 
         className='title'),
 
         html.A(
         'Repo',
-        href='https://github.com/CxLos/MC_Impact_11_2024',
+        href='https://github.com/CxLos/MC_Oct_2024',
         className='btn')
     ]),    
 
@@ -760,13 +760,13 @@ if __name__ == '__main__':
 
 # Heroku Setup:
 # heroku login
-# heroku create mc-impact-11-2024
-# heroku git:remote -a mc-impact-11-2024
+# heroku create mc-oct-2024
+# heroku git:remote -a mc-oct-2024
 # git push heroku main
 
 # Clear Heroku Cache:
 # heroku plugins:install heroku-repo
-# heroku repo:purge_cache -a mc-impact-11-2024
+# heroku repo:purge_cache -a mc-oct-2024
 
 # Set buildpack for heroku
 # heroku buildpacks:set heroku/python
